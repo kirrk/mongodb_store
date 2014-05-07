@@ -29,6 +29,8 @@ gem 'mongo'
 
 gem 'mongoid', '~> 4.0.0.beta1', github: 'mongoid/mongoid' #, '~> 4.0.0 beta', github: 'mongoid/mongoid'
 
+gem 'mongoid-paranoia', github: 'simi/mongoid-paranoia'
+
 gem 'bson_ext'
 
 group :doc do

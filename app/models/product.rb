@@ -1,8 +1,8 @@
 class Product
   include Mongoid::Document
   include Mongoid::Timestamps
- # include Mongoid::Paranoia
- # include Mongoid::Versioning
+  include Mongoid::Paranoia
+  #include Mongoid::Versioning
 
   field :name, type: String
   field :price, type: BigDecimal
